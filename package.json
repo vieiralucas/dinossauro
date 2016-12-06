@@ -1,0 +1,31 @@
+{
+  "name": "dyno-local",
+  "version": "0.0.0",
+  "description": "A simple way of running the last dynamodb-local version over node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "postinstall": "./postinstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vieiralucas/dyno-local.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "local",
+    "dynamodb-local",
+    "aws",
+    "acceptance"
+  ],
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralucas/dyno-local/issues"
+  },
+  "homepage": "https://github.com/vieiralucas/dyno-local#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.2"
+  }
+}

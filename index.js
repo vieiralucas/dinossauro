@@ -1,3 +1,5 @@
+'use strict';
+
 const Bluebird = require('bluebird');
 const _ = require('lodash');
 const spawn = require('child_process').spawn;
@@ -12,8 +14,8 @@ const defaultOptions = {
   sharedDb: true
 };
 
-const up = (options = {}) => new Promise((resolve, reject) => {
-  options = _.defaults(options, defaultOptions);
+const up = options => new Promise((resolve, reject) => {
+  options = _.defaults(options || {}, defaultOptions);
 
   if (dynamoProcess) {
     reject(new Error('There is already an dynamo process running'));

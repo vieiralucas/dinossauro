@@ -1,3 +1,5 @@
+'use strict';
+
 const dynamoLocal = require('./index');
 
 dynamoLocal.up()

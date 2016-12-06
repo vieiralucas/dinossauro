@@ -1,6 +1,6 @@
 {
   "name": "dinossauro",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Dinossauro is a simple way of running the last dynamodb-local version over node",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,4 @@
 node_modules
 dynamo
 .DS_Store
+npm-debug.log

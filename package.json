@@ -24,10 +24,6 @@
     "url": "https://github.com/vieiralucas/dinossauro/issues"
   },
   "homepage": "https://github.com/vieiralucas/dinossauro#readme",
-  "dependencies": {
-    "bluebird": "^3.4.6",
-    "lodash": "^4.17.2"
-  },
   "engines": {
     "node": ">=4"
   }

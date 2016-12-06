@@ -1,6 +1,6 @@
 {
   "name": "dyno-local",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple way of running the last dynamodb-local version over node",
   "main": "index.js",
   "scripts": {

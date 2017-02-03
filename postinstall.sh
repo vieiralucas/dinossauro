@@ -2,5 +2,5 @@
 
 mkdir dynamo
 cd dynamo
-curl -L -O "http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest.tar.gz"
+curl -L -O "https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz"
 tar -xvf dynamodb_local_latest.tar.gz

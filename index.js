@@ -32,7 +32,7 @@ const up = options => new Promise((resolve, reject) => {
     args.push('-inMemory');
   }
 
-  if (options.shareDb) {
+  if (options.sharedDb) {
     args.push('-sharedDb');
   }
 
